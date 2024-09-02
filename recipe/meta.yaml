@@ -1,13 +1,13 @@
 {% set name = "optuna-integration" %}
-{% set version = "3.6.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f261c38586b22cd95639287ca694fc0f788482cfbb7bb83803caf404ce06a55a
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: c082ef61e30789ec6611540eba1539e511d9fff53da326dc274e1f259d9a31d1
 
 build:
   noarch: python
