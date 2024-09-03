@@ -150,9 +150,11 @@ Feedstock Maintainers
 * [@HideakiImamura](https://github.com/HideakiImamura/)
 * [@c-bata](https://github.com/c-bata/)
 * [@contramundum53](https://github.com/contramundum53/)
+* [@eukaryo](https://github.com/eukaryo/)
 * [@gen740](https://github.com/gen740/)
 * [@knshnb](https://github.com/knshnb/)
 * [@nabenabe0928](https://github.com/nabenabe0928/)
 * [@not522](https://github.com/not522/)
 * [@toshihikoyanase](https://github.com/toshihikoyanase/)
+* [@y0z](https://github.com/y0z/)
 
