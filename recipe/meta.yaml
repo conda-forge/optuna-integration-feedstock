@@ -1,12 +1,13 @@
 {% set name = "optuna-integration" %}
 {% set version = "4.1.0" %}
+{% set python_min = "3.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: 86201502fab9c3bba8aa6ffaac0f465b0bcdb75ec75fd157eda8b96352fb3cf3
 
 build:
@@ -16,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools >=61.1.0
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - optuna
 
 test:
